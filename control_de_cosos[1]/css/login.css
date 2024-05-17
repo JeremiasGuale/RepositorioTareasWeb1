@@ -1,0 +1,106 @@
+/* Resetear estilos por defecto del navegador */
+body, h2, form, label, input, button, .container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/fondologin.jpg);
+    background-size: cover; /* Ajusta el fondo para cubrir todo el contenido */
+    background-position: center center; /* Centra el fondo horizontal y verticalmente */
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.72); /* Fondo blanco con transparencia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+#inicio-sesion-form {
+    padding: 20px;
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button[type="submit"] {
+    display: block; /* Hacer que el botón ocupe todo el ancho del formulario */
+    margin: 0 auto; /* Centrar el botón horizontalmente */
+    padding: 10px 20px;
+    background-color: #3F0D12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #7b0a15;
+}
+
+/* Resto del código CSS se mantiene igual */
+
+
+/* Estilos para mensajes */
+#message {
+    color: #ff0000;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Estilos para los botones */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
